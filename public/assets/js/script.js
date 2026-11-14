@@ -34,6 +34,7 @@ async function processar(evento){
         document.getElementById("valor-ibge").textContent = r.ibge;
 
         resultado.hidden = false;
+        mensagem.textContent = " ";
     }
 
     //resultado.hidden = true; // invisível
